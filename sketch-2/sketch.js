@@ -76,3 +76,4 @@ function keyPressed() {
   if (keyCode===UP_ARROW && numCircle<200) { numCircle++; circles.push(new Circle(random(width),random(height),random(10,60),random(-0.25,0.25),random(-0.25,0.25),numCircle-1)); }
   if (keyCode===DOWN_ARROW && numCircle>10) { numCircle--; circles.pop(); }
 }
+// reviewed
