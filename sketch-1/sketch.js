@@ -76,4 +76,4 @@ function Nub(x, y, w, h, pat1, pat2) {
 function keyPressed() {
   if (key === 'r' || key === 'R') x = 0.0;
   if (key === 'c' || key === 'C') colorTint = !colorTint;
-}
+}// reviewed
