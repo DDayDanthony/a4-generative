@@ -135,3 +135,4 @@ function keyPressed() {
   if (keyCode===DOWN_ARROW&&numCircle>10) { numCircle--; circles.pop(); }
   if (key==="c"||key==="C") colorTint=!colorTint;
 }
+// reviewed
